@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 70%;
+    text-align: center;
+}
+
+.wrapper h1{
+    text-align: center;
+}
+
+.wrapper h3{
+    text-align: center;
+}
+
+#imageForm{
+    margin: 50px auto;
+    width: 800px;
+    height: 400px;
+    box-shadow: 0 0 2px #3e3e3e;
+    padding: 30px;
+    text-align: center;
+}
+
+.formEria{
+    background-image: url('../images/image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;  
+    margin: auto;
+    width: 85%;
+    height: 300px;
+    position: relative;
+    border: 1px dotted rgba(0, 0, 0, .4);
+}
+
+.formEria:hover {
+    background-color:#eaf6fd;
+    background-image: none;
+}
+
+.formEria p {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    opacity: .8;
+}
+
+#uploadImage {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+#uploadButton{
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 3px;
+    width: 200px;
+    height: 45px;
+    background-color: rgba(108, 168, 255, .7);
+    border: none;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.6);
+    opacity: .6;
+    cursor: pointer;
+}
+
+#uploadButton:hover {
+    background-color: rgb(48, 78, 125);
+}
+
+#uploadImage:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.log {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+.log p{
+    margin-bottom: 50px;
+}
+
+.log a{
+    font-weight: normal;
+    font-size: 1.375rem;
+    background-color:rgba(108, 168, 255, .7);
+    color:#fff;
+    border-radius:5px;
+    margin-top: 5rem;
+    padding: 18px 32px;
+}
+
+.log a:hover{
+    background-color:rgb(48, 78, 125);
+}
+
+.editEria{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.wrapper2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 70%;
+    text-align: center;
+}
+
+
+#editImage{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+dl dt{
+    width: 130px;
+    padding:10px 0;
+    padding-left: 25%;
+    float:left;
+    clear:both;
+}
+
+form dl dd{
+    padding:10px 0;
+}
+
+.wrapper2 a{
+    font-weight: normal;
+    font-size: 1.375rem;
+    background-color:rgba(108, 168, 255, .7);
+    color:#fff;
+    border-radius:5px;
+    margin-top: 5rem;
+    padding: 18px 32px;
+}
+
+.saveImages{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3,minmax(200px,400px));
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.logOut{
+    font-weight: normal;
+    font-size: 1.375rem;
+    background-color:rgba(255, 168, 108, .7);
+    color:#fff;
+    border-radius:5px;
+    margin-top: 5rem;
+    padding: 18px 32px;
+}
+
+.item img{
+    width: 300px; 
+    height:200px;
+    object-fit: scale-down;
+}
+
+.item img:hover{
+    opacity:0.5;
+	cursor: pointer;
+}
+
+.logent_form input{
+    margin-bottom: 15px;
+}
+
+.logent_a{
+    margin-bottom: 20px;
+}
